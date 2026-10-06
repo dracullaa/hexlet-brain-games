@@ -4,12 +4,14 @@ install:
 brain-games:
 	uv run brain-games
 
+barin-even:
+	uv run brain-even
+
 build:
 	uv build
 
 #название файла hexlet_code-0.1.0-py3-none-any
 package-install:
-
 	uv tool install dist/*.whl
 
 package-reinstall:
@@ -17,3 +19,5 @@ package-reinstall:
 
 lint:
     uv run ruff check brain_games
+
+
